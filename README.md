@@ -18,14 +18,11 @@ Este sitio web es una tienda virtual demostrativa creada como trabajo de pre-ent
 - **Contenido multimedia**: Imágenes integradas en la galería de productos.
 
 ## 🚀 Tecnologías utilizadas
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Google Fonts
 - Formspree (gestión de envío de formulario)
 - GitHub Pages (alojamiento gratuito)
 
 ## 🌐 Ver el proyecto en línea
-[Enlace a GitHub Pages]()
-
-## 👤 Autor
-Nombre — Curso Frontend — 2026
+https://david685e.github.io/
