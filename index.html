@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda - Proyecto Frontend</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header id="inicio">
+        <h1>🛒 Tienda Tech</h1>
+        <p>Tu tecnología al mejor precio</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#resenas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        
+        <!-- Sección Productos - Flexbox -->
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="contenedor-productos">
+                <div class="card">
+                    <img src="imagenes/producto1.jpg" alt="Producto 1">
+                    <h3>Notebook Gamer</h3>
+                    <p>Alto rendimiento para juegos y trabajo.</p>
+                    <span class="precio">$1.299.000</span>
+                </div>
+                <div class="card">
+                    <img src="imagenes/producto2.jpg" width="50" alt="Producto 2">
+                    <h3>Auriculares Pro</h3>
+                    <p>Sonido envolvente y micrófono profesional.</p>
+                    <span class="precio">$149.000</span>
+                </div>
+                <div class="card">
+                    <img src="imagenes/producto3.jpg" alt="Producto 3">
+                    <h3>Monitor 27"</h3>
+                    <p>Resolución 4K y diseño moderno.</p>
+                    <span class="precio">$389.000</span>
+                </div>
+                <div class="card">
+                    <img src="imagenes/producto4.jpg" alt="Producto 4">
+                    <h3>parlante jbl go 4</h3>
+                    <p>parlante bluetooth portatil.</p>
+                    <span class="precio">$100.000</span>
+                </div>
+                <div class="card">
+                    <img src="imagenes/producto5.jpg" alt="Producto 5">
+                    <h3>joystick ps5</h3>
+                    <p>Joystick Dualsense Edicion Playstation 30TH Anniversary PS5.</p>
+                    <span class="precio">$300.000</span>
+                </div>
+                <div class="card">
+                    <img src="imagenes/producto6.jpg" alt="Producto 6">
+                    <h3>Celular samsung 06</h3>
+                    <p>Celular Samsung Galaxy A06 64GB/4GB.</p>
+                    <span class="precio">$280.000</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Reseñas - Grid -->
+        <section id="resenas">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="grid-resenas">
+                <div class="resena">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Excelente atención y envío rápido."</p>
+                    <strong>— María G.</strong>
+                </div>
+                <div class="resena">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Productos de muy buena calidad, volveré a comprar."</p>
+                    <strong>— Juan P.</strong>
+                </div>
+                <div class="resena">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"Muy recomendable, todo llegó en perfecto estado."</p>
+                    <strong>— Lucas R.</strong>
+                </div>
+                <div class="resena">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"El soporte me ayudó con todas mis dudas."</p>
+                    <strong>— Sofía M.</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto - Formspree + Responsivo -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes dudas? Escríbenos y te responderemos pronto.</p>
+            
+            <form action="https://formspree.io/f/meaokwvy" method="POST" class="form-contacto">
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Tu mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje ✉️</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2026 Tienda Tech — Proyecto de Pre-Entrega Frontend</p>
+        <p>Hecho con 💻 y mucho aprendizaje</p>
+    </footer>
+
+</body>
+</html>
